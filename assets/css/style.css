@@ -1,0 +1,120 @@
+.head{
+    background-color: forestgreen;
+    display: flex;
+    justify-content: space-around;
+}
+
+.head .left-head img{   
+    width: 100px;
+    height: 60px;
+    background-color: transparent;
+    margin-right: 200px;
+}
+
+.head .right-head{  
+    margin-left: 50px;
+}
+
+.head .right-head ul{   
+list-style: none;
+display: flex;
+}
+
+.head .right-head ul li{   
+ margin-left: 10px;
+}
+
+.head .right-head ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.main{
+height: 400px;
+position: relative;
+}
+
+.main .center button{
+background-color: blue;
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+.main .center button p{
+    color: white;
+}
+
+.low-mid{   
+    background-color: forestgreen;
+    justify-content: center;
+    display: grid;
+}
+
+.low-mid h2{
+    margin-left: 100px;
+}
+.low-mid h2{   
+    color: white;
+}
+.low-mid p{
+        color: white;
+}
+
+.footer{    
+    display: grid;
+    justify-content: center;
+}
+
+.footer h2{   
+    color: black;
+    margin-left: 150px;
+}
+
+.footer p{  
+    color: black;
+}
+
+.containts{ 
+
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.containts .con1{   
+    background-color: rosybrown;
+    color: brown;
+    display: inline-block;
+    margin-left: 30px;
+    width: 250px;
+    height: 100px;
+}
+
+.containts .con2{   
+    background-color: greenyellow;
+    color: green;
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    margin-left: 30px;
+}
+.containts .con3{   
+    background-color: yellow;
+    color: burlywood;
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.containts .con4{   
+    background-color: skyblue;
+    color: blue;
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    margin-left: 30px;
+}
