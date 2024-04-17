@@ -1,0 +1,48 @@
+.navbar .logo h4{  
+    color: gainsboro;
+}
+
+.navbar{    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar .navbar-items ul{  
+   list-style: none; 
+   display: flex;
+   margin-top: 20px;
+   margin-left: 100px;
+}
+
+.navbar .navbar-items ul a{ 
+    text-decoration: none;
+    color: skyblue;
+    background-color: white;
+    font-size: 20px;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.context{   
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    width: 800px;
+    margin-left: 130px;
+}
+.context .about h2{ 
+    color: skyblue;
+}
+
+.context .about{    
+    line-height:2;
+}
+
+.products{  
+    display: flex;
+    justify-content: ;
+}
